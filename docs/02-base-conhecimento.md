@@ -27,9 +27,8 @@ Os dados modificados foram adaptados para representar comportamentos financeiros
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
+Existem duas possibilidades, injetar os dados diretamente no prompt (ctrl + c, ctrl + v) ou carregar os arquivos via código, como no exemplo abaixo:
 
-Os dados mockados foram adaptados para representar comportamentos financeiros comuns, como gastos recorrentes, variação mensal de despesas, picos de consumo e generos  (alimentação, transporte, lazer, moradia).
-Também foram incluídos campos adicionais, como genero da despesa, tipo de transação (PIX, débito, crédito) e recorrência, para facilitar a geração de insights pelo agente.
 
 ```python
 import pandas as pd
@@ -41,7 +40,7 @@ historico = pd.read_csv('./data/historico_atendimento.csv')
 produtos = json.load(open('./data/produtos_financeiros.json'))
 ```
 
-
+```
 DADOS DO CLIENTE E PERFIL (data/perfil_investidor.json):
 {
   "nome": "João Silva",
@@ -131,7 +130,7 @@ PRODUTOS DISPONIVEIS PARA ENSINO (data/produtos_financeiros.json):
     "indicado_para": "Perfil arrojado com foco no longo prazo"
   }
 ]
-
+```
 ---
 
 ## Exemplo de Contexto Montado
