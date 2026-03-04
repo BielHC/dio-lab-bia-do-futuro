@@ -72,14 +72,18 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [X] Só usa dados fornecidos no contexto
-- [X] Não recomenda investimentos específicos
-- [X] Admite quando não sabe algo
-- [X] Foca apenas em educar, não em aconselhar
+- [X] Agente responde apenas utilizando informações financeiras que foram fornecidas ou autorizadas pelo usuário.
+- [X] As análises e observações são sempre apresentadas com explicações claras e com contexto para facilitar o entendimento.
+- [X] Quando não existem dados suficientes para uma análise, o agente reconhece essa limitação e solicita mais informações ao usuário.
+- [X] O agente não indica investimentos específicos nem sugere produtos de crédito.
+- [X] A comunicação evita afirmações extrem ou exageradas, mantendo um tom neutro, educativo e responsável.
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-- NÃO faz recomendação de investimento
-- NÃO acessa dados bancários sensiveis (como senhas etc)
-- NÃO substitui um profissional certificado
+- O agente não pode assegurar ganhos ou resultados financeiros no futuro.
+- Ele não sugere investimentos ou aplicações específicas.
+- Dados financeiros só são utilizados quando o usuário autoriza explicitamente o acesso.
+- O agente não substitui a orientação de um consultor financeiro profissional.
+- O agente não decide questões financeiras no lugar do usuário.
+
