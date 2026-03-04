@@ -5,7 +5,7 @@
 | Arquivo | Formato | Para que serve no Edu? |
 |---------|---------|---------------------|
 | `historico_atendimento.csv` | CSV | Contextualizar interações anteriores, ou seja, dar continuidade ao atendimento de forma mais eficiente. |
-| `perfil_investidor.json` | JSON | Personalizar as explicações sobre as dúvidas e necessidades de aprendizado do cliente. |
+| `perfil_usuario.json` | JSON | Personalizar as explicações sobre as dúvidas e necessidades de aprendizado do cliente. |
 | `produtos_financeiros.json` | JSON | Conhecer os produtos disponíveis para que eles possam ser ensinados ao cliente. |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente e usar essas informações de forma didática. |
 | `cartoes.json` | JSON  | Identificar limites, faturas e comportamento de uso do cartões. |
@@ -42,7 +42,7 @@ historico_interacoes = pd.read_csv('data/historico_interacoes.csv'
 
 ```Carregamento dos arquivos JSON ```
 
-with open('data/perfil_ivestidor.json', 'r', encoding='utf-8') as f:
+with open('data/perfil_usuario.json', 'r', encoding='utf-8') as f:
     perfil_cliente = json.load(f)
 
 with open('data/produtos_financeiros.json', 'r', encoding='utf-8') as f: 
