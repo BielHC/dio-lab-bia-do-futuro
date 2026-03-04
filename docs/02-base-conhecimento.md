@@ -1,12 +1,5 @@
 # Base de Conhecimento
 
-> [!TIP]
-> **Prompt usado para esta etapa:**
-> 
-> Organize a base de conhecimento do agente "Edu" usando os 4 arquivos da pasta `data/` (em anexo). Explique pra que serve cada arquivo e monte um exemplo de contexto formatado que será enviado pro LLM. Preencha o template abaixo.
->
-> [cole ou anexe o template `02-base-conhecimento.md` pra contexto]
-
 ## Dados Utilizados
 
 | Arquivo | Formato | Para que serve no Edu? |
@@ -15,6 +8,10 @@
 | `perfil_investidor.json` | JSON | Personalizar as explicações sobre as dúvidas e necessidades de aprendizado do cliente. |
 | `produtos_financeiros.json` | JSON | Conhecer os produtos disponíveis para que eles possam ser ensinados ao cliente. |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente e usar essas informações de forma didática. |
+| `cartoes.json` | JSON  | Identificar limites, faturas e comportamento de uso do cartões. |
+| `credito_automatico.json` |JSON  | Identificar gastos ativos, tipo de conta, saldos. |
+| `generos.json` | JSON | Catégorizar cada gasto em sua classe.|
+
 
 ---
 
