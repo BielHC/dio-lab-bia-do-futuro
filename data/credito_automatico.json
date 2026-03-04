@@ -1,0 +1,22 @@
+[
+  { "servico": "Streaming Séries", "valor": 49.90, "frequencia": "Mensal", "cartao": "Visa", "tipo_pagamento": "Crédito" },
+  { "servico": "Música Premium", "valor": 19.90, "frequencia": "Mensal", "cartao": "Mastercard", "tipo_pagamento": "Crédito" },
+  { "servico": "Armazenamento em Nuvem", "valor": 14.90, "frequencia": "Mensal", "cartao": "Visa", "tipo_pagamento": "Crédito" },
+  { "servico": "Academia Online", "valor": 89.90, "frequencia": "Mensal", "cartao": "Elo", "tipo_pagamento": "Crédito" },
+  { "servico": "Revista Digital Premium", "valor": 12.90, "frequencia": "Mensal", "cartao": "Visa", "tipo_pagamento": "Crédito" },
+  { "servico": "Streaming Filmes HD", "valor": 39.90, "frequencia": "Mensal", "cartao": "Mastercard", "tipo_pagamento": "Crédito" },
+  { "servico": "Aplicativo de Meditação", "valor": 24.90, "frequencia": "Mensal", "cartao": "Visa", "tipo_pagamento": "Crédito" },
+  { "servico": "Antivírus Premium", "valor": 79.90, "frequencia": "Anual", "cartao": "Mastercard", "tipo_pagamento": "Crédito" },
+  { "servico": "Backup de Fotos Cloud", "valor": 9.90, "frequencia": "Mensal", "cartao": "Elo", "tipo_pagamento": "Crédito" },
+  { "servico": "Streaming Esportes Pro", "valor": 54.90, "frequencia": "Mensal", "cartao": "Visa", "tipo_pagamento": "Crédito" },
+  { "servico": "Cursos Online Premium", "valor": 99.90, "frequencia": "Mensal", "cartao": "Mastercard", "tipo_pagamento": "Crédito" },
+  { "servico": "Editor de Fotos Pro", "valor": 29.90, "frequencia": "Mensal", "cartao": "Visa", "tipo_pagamento": "Crédito" },
+  { "servico": "Backup Automático", "valor": 15.90, "frequencia": "Mensal", "cartao": "Elo", "tipo_pagamento": "Crédito" },
+  { "servico": "App Controle Financeiro", "valor": 8.90, "frequencia": "Mensal", "cartao": "Visa", "tipo_pagamento": "Crédito" },
+  { "servico": "Streaming Infantil Plus", "valor": 25.90, "frequencia": "Mensal", "cartao": "Mastercard", "tipo_pagamento": "Crédito" },
+  { "servico": "Jornal Online Premium", "valor": 17.90, "frequencia": "Mensal", "cartao": "Visa", "tipo_pagamento": "Crédito" },
+  { "servico": "Plataforma de Cursos Tech", "valor": 69.90, "frequencia": "Mensal", "cartao": "Elo", "tipo_pagamento": "Crédito" },
+  { "servico": "VPN Segurança", "valor": 13.90, "frequencia": "Mensal", "cartao": "Mastercard", "tipo_pagamento": "Crédito" },
+  { "servico": "Software Escritório Pro", "valor": 44.90, "frequencia": "Mensal", "cartao": "Visa", "tipo_pagamento": "Crédito" },
+  { "servico": "Audiolivros Premium", "valor": 26.90, "frequencia": "Mensal", "cartao": "Mastercard", "tipo_pagamento": "Crédito" }
+]
