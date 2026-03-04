@@ -34,27 +34,28 @@ Existem duas possibilidades, injetar os dados diretamente no prompt (ctrl + c, c
 import pandas as pd
 import json
 
+
 ``` carregamento dos arquivos CSV ```
-
 transacoes = pd.read_csv('data/transacoes.csv')
+historico_interacoes = pd.read_csv('data/historico_interacoes.csv'
 
-historico_interacoes = pd.read_csv('data/historico_interacoes.csv')
 
 ```Carregamento dos arquivos JSON ```
+
 with open('data/perfil_ivestidor.json', 'r', encoding='utf-8') as f:
     perfil_cliente = json.load(f)
 
-with open('data/produtos_financeiros.json', 'r', encoding='utf-8') as f:
+with open('data/produtos_financeiros.json', 'r', encoding='utf-8') as f: 
     contas = json.load(f)
 
 with open('data/cartoes.json', 'r', encoding='utf-8') as f:
-    cartoes = json.load(f)
+        cartoes = json.load(f)
 
 with open('data/generos.json', 'r', encoding='utf-8') as f:
-    categorias = json.load(f)
+        categorias = json.load(f)
 
 with open('data/credito_automatico.json', 'r', encoding='utf-8') as f:
-    assinaturas = json.load(f)
+        assinaturas = json.load(f)
 
 
 ```
