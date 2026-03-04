@@ -19,7 +19,7 @@
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-O produto Fundo Imobiliário (FII) substituiu o Fundo Multimercado, pois pessoalmente me sinto mais confiante em usar apenas produtos financeiros que eu conheço. Assim, poderei validar as respostas do Edu de forma mais assertiva.
+Os dados modificados foram adaptados para representar comportamentos financeiros comuns, como gastos recorrentes, variação mensal de despesas, picos de consumo 'e generos (alimentação, transporte, lazer, moradia). Também foram incluídos campos adicionais, como genero da despesa, tipo de transação 'PIX, débito, crédito' e recorrência, para facilitar a geração de respostas pelo agente.
 
 ---
 
@@ -28,7 +28,8 @@ O produto Fundo Imobiliário (FII) substituiu o Fundo Multimercado, pois pessoal
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-Existem duas possibilidades, injetar os dados diretamente no prompt (Ctrl + C, Ctrl + V) ou carregar os arquivos via código, como no exemplo abaixo:
+Os dados mockados foram adaptados para representar comportamentos financeiros comuns, como gastos recorrentes, variação mensal de despesas, picos de consumo e generos  (alimentação, transporte, lazer, moradia).
+Também foram incluídos campos adicionais, como genero da despesa, tipo de transação (PIX, débito, crédito) e recorrência, para facilitar a geração de insights pelo agente.
 
 ```python
 import pandas as pd
@@ -40,12 +41,7 @@ historico = pd.read_csv('./data/historico_atendimento.csv')
 produtos = json.load(open('./data/produtos_financeiros.json'))
 ```
 
-### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
 
-Para simplificar, podemos simplesmente "injetar" os dados em nosso prompt, agarntindo que o Agente tenha o melhor contexto possível. Lembrando que, em soluções mais robustas, o ideal é que essas informaçoes sejam carregadas dinamicamente para que possamos ganhar flexibilidade.
-
-```text
 DADOS DO CLIENTE E PERFIL (data/perfil_investidor.json):
 {
   "nome": "João Silva",
@@ -135,7 +131,6 @@ PRODUTOS DISPONIVEIS PARA ENSINO (data/produtos_financeiros.json):
     "indicado_para": "Perfil arrojado com foco no longo prazo"
   }
 ]
-```
 
 ---
 
