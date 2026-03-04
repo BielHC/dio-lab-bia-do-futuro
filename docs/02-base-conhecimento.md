@@ -40,6 +40,8 @@ historico = pd.read_csv('./data/historico_atendimento.csv')
 produtos = json.load(open('./data/produtos_financeiros.json'))
 ```
 
+
+
 ```
 DADOS DO CLIENTE E PERFIL (data/perfil_investidor.json):
 {
