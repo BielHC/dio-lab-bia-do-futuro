@@ -1,0 +1,22 @@
+{
+  "Alimentos e Bebidas": ["mercado", "hortifruti", "delivery comida", "cafeteria"],
+  "Mobilidade": ["taxi", "metro", "onibus", "bicicleta aluguel"],
+  "Casa e Utilidades": ["gas", "internet", "telefone fixo", "reparos"],
+  "Entretenimento": ["teatro", "parque", "games", "eventos"],
+  "Bem-estar": ["academia", "terapia", "nutricionista", "massagem"],
+  "Estudos": ["faculdade", "plataforma educacional", "material escolar"],
+  "Serviços Digitais": ["armazenamento cloud", "vpn", "antivirus", "app premium"],
+  "Compras Online": ["marketplace", "loja virtual", "apps de compras"],
+  "Moda": ["acessorios", "bolsas", "tenis"],
+  "Eletronicos": ["tablet", "smartwatch", "perifericos"],
+  "Serviços Domésticos": ["jardinagem", "dedetizacao", "lavanderia"],
+  "Tributos": ["taxas municipais", "taxas estaduais"],
+  "Proteção": ["seguro residencial", "seguro celular"],
+  "Solidariedade": ["campanha beneficente", "instituicao caridade"],
+  "Animais": ["racao", "banho pet", "consulta veterinaria"],
+  "Turismo": ["resort", "aluguel carro", "pacote viagem"],
+  "Taxas Bancarias": ["manutencao conta", "tarifa transferencia"],
+  "Envio de Dinheiro": ["transferencia bancaria", "envio internacional"],
+  "Poupança e Aplicações": ["poupanca", "tesouro", "fundos"],
+  "Diversos": ["outros gastos"]
+}
