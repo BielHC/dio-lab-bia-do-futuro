@@ -30,16 +30,31 @@ Os dados modificados foram adaptados para representar comportamentos financeiros
 Existem duas possibilidades, injetar os dados diretamente no prompt (ctrl + c, ctrl + v) ou carregar os arquivos via código, como no exemplo abaixo:
 
 
-```python
+
 import pandas as pd
 import json
 
-perfil = json.load(open('./data/perfil_investidor.json'))
-transacoes = pd.read_csv('./data/transacoes.csv')
-historico = pd.read_csv('./data/historico_atendimento.csv')
-produtos = json.load(open('./data/produtos_financeiros.json'))
-```
+``` carregamento dos arquivos CSV ```
 
+transacoes = pd.read_csv('data/transacoes.csv')
+
+historico_interacoes = pd.read_csv('data/historico_interacoes.csv')
+
+```Carregamento dos arquivos JSON ```
+with open('data/perfil_ivestidor.json', 'r', encoding='utf-8') as f:
+    perfil_cliente = json.load(f)
+
+with open('data/produtos_financeiros.json', 'r', encoding='utf-8') as f:
+    contas = json.load(f)
+
+with open('data/cartoes.json', 'r', encoding='utf-8') as f:
+    cartoes = json.load(f)
+
+with open('data/generos.json', 'r', encoding='utf-8') as f:
+    categorias = json.load(f)
+
+with open('data/credito_automatico.json', 'r', encoding='utf-8') as f:
+    assinaturas = json.load(f)
 
 
 ```
