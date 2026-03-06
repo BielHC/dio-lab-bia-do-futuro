@@ -1,19 +1,18 @@
-# 🎓 Edu - Educador Financeiro Inteligente
+# 🎓 Duda - Educador Financeiro Inteligente
 
 > Agente de IA Generativa que ensina conceitos de finanças pessoais de forma simples e personalizada, usando os próprios dados do cliente como exemplos práticos.
 
-## 💡 O Que é o Edu?
+## 💡 O Que é a Duda?
 
-O Edu é um educador financeiro que **ensina**, não recomenda. Ele explica conceitos como reserva de emergência, tipos de investimentos e análise de gastos usando uma abordagem didática e exemplos concretos baseados no perfil do cliente.
+O Duda é um educador financeiro que **ensina**, não recomenda. Ele explica conceitos como reserva de emergência, tipos de investimentos e análise de gastos usando uma abordagem didática e exemplos concretos baseados no perfil do cliente.
 
-**O que o Edu faz:**
+**O que a Duda faz:**
 - ✅ Explica conceitos financeiros de forma simples
 - ✅ Usa dados do cliente como exemplos práticos
 - ✅ Responde dúvidas sobre produtos financeiros
 - ✅ Analisa padrões de gastos de forma educativa
 
-**O que o Edu NÃO faz:**
-- ❌ Não recomenda investimentos específicos
+**O que o Duda recomenda investimentos específicos**
 - ❌ Não acessa dados bancários sensíveis
 - ❌ Não substitui um profissional certificado
 
