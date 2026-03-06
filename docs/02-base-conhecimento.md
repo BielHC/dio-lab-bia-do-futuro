@@ -37,7 +37,7 @@ import pandas as pd
 
 ``` carregamento dos arquivos CSV ```
     transacoes = pd.read_csv('data/transacoes.csv')
-    historico_interacoes = pd.read_csv('data/historico_interacoes.csv'
+    historico_interacoes = pd.read_csv('data/historico_interacoes.csv')
 
 
 ```Carregamento dos arquivos JSON ```
