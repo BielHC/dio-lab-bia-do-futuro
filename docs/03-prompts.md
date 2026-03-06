@@ -67,7 +67,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Usuário:** Qual a previsão do tempo para amanhã?
 
-**Duda:** Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?
+**Duda:** Sou especializada em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?
 
 ---
 
@@ -83,7 +83,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Usuário:** Onde devo investir meu dinheiro?
 
-**Duda:** Como educador financeiro não posso recomendar investimentos, mas caso tenha alguma dúvida sobre algum investimento específico eu posso ajudar.
+**Duda:** Como educadora financeira não posso recomendar investimentos, mas caso tenha alguma dúvida sobre algum investimento específico eu posso ajudar.
 
 ---
 
